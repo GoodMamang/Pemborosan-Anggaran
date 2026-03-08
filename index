@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografis: Indikasi Pemborosan Pupuk Tasikmalaya</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Roboto:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f3f4f6;
+        }
+        .font-heading {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .pattern-bg {
+            background-image: radial-gradient(#ef4444 1px, transparent 1px);
+            background-size: 20px 20px;
+            background-color: #111827;
+        }
+    </style>
+</head>
+<body class="flex justify-center p-0 md:p-6">
+
+    <!-- Infographic Container -->
+    <div class="max-w-2xl w-full bg-white shadow-2xl overflow-hidden relative">
+        
+        <!-- HEADER SECTION -->
+        <header class="pattern-bg text-white p-8 text-center border-b-8 border-yellow-400 relative">
+            <div class="absolute top-0 left-0 w-full h-full bg-black opacity-40"></div>
+            <div class="relative z-10">
+                <i class="fa-solid fa-triangle-exclamation text-6xl text-yellow-400 mb-4 animate-pulse"></i>
+                <h1 class="font-heading font-black text-4xl md:text-5xl leading-tight mb-2 text-red-500 bg-white inline-block px-4 py-1 skew-x-[-5deg]">
+                    PEMBOROSAN ANGGARAN APBD!
+                </h1>
+                <h2 class="font-heading font-bold text-xl md:text-2xl mt-4 text-yellow-300">
+                    INDIKASI PEMBOROSAN PENGADAAN PUPUK ORGANIK PADAT
+                </h2>
+                <p class="font-semibold text-lg mt-2 tracking-wider">KABUPATEN TASIKMALAYA TA 2026</p>
+            </div>
+        </header>
+
+        <!-- PROJECT FACTS SECTION -->
+        <section class="p-8 bg-gray-50 relative">
+            <div class="absolute top-0 right-0 p-4 opacity-10">
+                <i class="fa-solid fa-file-invoice-dollar text-9xl"></i>
+            </div>
+            <h3 class="font-heading font-extrabold text-2xl text-gray-800 mb-6 border-l-4 border-red-600 pl-3">
+                FAKTA PROYEK <span class="text-sm font-normal bg-gray-200 text-gray-600 px-2 py-1 rounded ml-2">Kode RUP: 66079685</span>
+            </h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 relative z-10">
+                <div class="bg-white p-4 rounded-lg shadow border border-gray-100 flex items-start space-x-4">
+                    <div class="bg-blue-100 p-3 rounded-full text-blue-600">
+                        <i class="fa-solid fa-building-columns text-xl"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase font-bold">Instansi / Satker</p>
+                        <p class="font-semibold text-gray-800 text-sm leading-tight mt-1">Dinas Pertanian, Ketahanan Pangan dan Perikanan</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-4 rounded-lg shadow border border-gray-100 flex items-start space-x-4">
+                    <div class="bg-green-100 p-3 rounded-full text-green-600">
+                        <i class="fa-solid fa-sack-dollar text-xl"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase font-bold">Total Pagu Anggaran</p>
+                        <p class="font-bold text-gray-900 text-lg mt-1">Rp 1.238.040.000</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-lg shadow border border-gray-100 flex items-start space-x-4">
+                    <div class="bg-amber-100 p-3 rounded-full text-amber-600">
+                        <i class="fa-solid fa-box-open text-xl"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase font-bold">Volume Pekerjaan</p>
+                        <p class="font-bold text-gray-900 text-lg mt-1">456.000 Kg <span class="text-sm font-normal">(456 Ton)</span></p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-lg shadow border border-gray-100 flex items-start space-x-4">
+                    <div class="bg-purple-100 p-3 rounded-full text-purple-600">
+                        <i class="fa-solid fa-cart-arrow-down text-xl"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-500 uppercase font-bold">Metode Pemilihan</p>
+                        <p class="font-bold text-gray-900 mt-1">E-Purchasing</p>
+                        <p class="text-xs text-gray-500 mt-1"><i class="fa-regular fa-calendar mr-1"></i>Maret - Juli 2026</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-4 bg-white p-4 rounded-lg shadow border border-gray-100 flex items-start space-x-4">
+                <div class="bg-red-100 p-3 rounded-full text-red-600">
+                    <i class="fa-solid fa-location-dot text-xl"></i>
+                </div>
+                <div>
+                    <p class="text-xs text-gray-500 uppercase font-bold">Lokasi Sasaran</p>
+                    <p class="font-semibold text-gray-800 text-sm mt-1">Kec. Pagerageung, Sukaresik, Sukahening, Cisayong</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- RED FLAGS SECTION -->
+        <section class="p-8 bg-red-600 text-white relative">
+            <h3 class="font-heading font-black text-3xl mb-8 text-center flex items-center justify-center">
+                <i class="fa-solid fa-flag text-yellow-300 mr-3"></i> SOROTAN KEJANGGALAN <i class="fa-solid fa-flag text-yellow-300 ml-3"></i>
+            </h3>
+
+            <!-- Red Flag 1 -->
+            <div class="bg-white text-gray-800 rounded-xl p-6 mb-6 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-red-600 text-white font-bold px-4 py-1 rounded-bl-lg">
+                    #1
+                </div>
+                <h4 class="font-heading font-bold text-xl text-red-700 mb-4">HARGA SATUAN TAK MASUK AKAL!</h4>
+                
+                <div class="flex items-end justify-between mb-4 border-b pb-4">
+                    <div class="w-1/2 pr-2">
+                        <p class="text-sm text-gray-500 font-bold mb-1">Harga Pasar / HET</p>
+                        <div class="bg-green-100 text-green-800 font-bold p-2 rounded text-center border border-green-300 h-16 flex items-center justify-center">
+                            Rp 800 - 1.500 / Kg
+                        </div>
+                    </div>
+                    <div class="w-1/2 pl-2 relative">
+                        <div class="absolute -top-6 right-2 text-red-600 font-black text-sm animate-bounce">
+                            <i class="fa-solid fa-arrow-up text-lg"></i> Selisih > 100%!
+                        </div>
+                        <p class="text-sm text-gray-500 font-bold mb-1">Anggaran RUP</p>
+                        <div class="bg-red-100 text-red-700 font-black p-2 rounded text-center border-2 border-red-500 h-24 flex items-center justify-center text-xl shadow-inner">
+                            Rp 2.715 / Kg
+                        </div>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-700 italic">
+                    <i class="fa-solid fa-circle-exclamation text-red-500 mr-1"></i> 
+                    "Pengadaan dilakukan dalam jumlah partai besar (456 Ton), secara logika harga grosir (E-Purchasing) seharusnya jauh lebih murah, bukan menggelembung!"
+                </p>
+            </div>
+
+            <!-- Red Flag 2 -->
+            <div class="bg-white text-gray-800 rounded-xl p-6 shadow-xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 bg-red-600 text-white font-bold px-4 py-1 rounded-bl-lg">
+                    #2
+                </div>
+                <h4 class="font-heading font-bold text-xl text-red-700 mb-4">"ORGANIK" TAPI TIDAK PEDULI LINGKUNGAN?</h4>
+                <p class="mb-4 text-sm font-medium">Dalam sistem SIRUP, meskipun nama paket adalah "Pupuk Organik", namun atribut keberlanjutan menunjukkan anomali yang janggal:</p>
+                
+                <div class="bg-gray-100 rounded border border-gray-300 p-3 mb-4 font-mono text-sm">
+                    <div class="flex justify-between border-b border-gray-300 pb-2 mb-2">
+                        <span>Aspek Ekonomi:</span> <span class="text-gray-500">Tidak</span>
+                    </div>
+                    <div class="flex justify-between border-b border-gray-300 pb-2 mb-2 bg-yellow-100 px-2 rounded -mx-2">
+                        <span class="font-bold text-red-600"><i class="fa-solid fa-users mr-2"></i>Aspek Sosial:</span> <span class="font-bold text-red-600">TIDAK</span>
+                    </div>
+                    <div class="flex justify-between bg-yellow-100 px-2 rounded -mx-2">
+                        <span class="font-bold text-red-600"><i class="fa-solid fa-leaf mr-2"></i>Aspek Lingkungan:</span> <span class="font-bold text-red-600">TIDAK</span>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-700 italic">
+                    <i class="fa-solid fa-circle-exclamation text-red-500 mr-1"></i> 
+                    "Bukti perencanaan asal-asalan, sekadar <i>copy-paste</i>, dan tidak memiliki visi keberlanjutan ekologi!"
+                </p>
+            </div>
+        </section>
+
+        <!-- REGULASI SECTION -->
+        <section class="p-8 bg-gray-900 text-white border-t-8 border-yellow-400">
+            <h3 class="font-heading font-extrabold text-2xl mb-6 flex items-center text-yellow-400">
+                <i class="fa-solid fa-gavel mr-3 text-3xl"></i> ATURAN YANG DITABRAK
+            </h3>
+            <ul class="space-y-4">
+                <li class="flex items-start">
+                    <i class="fa-solid fa-ban text-red-500 mt-1 mr-3 text-xl"></i>
+                    <div>
+                        <p class="font-bold text-lg">Perpres No. 12 Tahun 2021</p>
+                        <p class="text-gray-400 text-sm mt-1">Tentang Pengadaan Barang/Jasa Pemerintah. Melanggar prinsip dasar <strong>Efisiensi</strong> dan <strong>Akuntabilitas</strong>. Anggaran tidak proporsional dengan harga pasar.</p>
+                    </div>
+                </li>
+                <li class="flex items-start">
+                    <i class="fa-solid fa-ban text-red-500 mt-1 mr-3 text-xl"></i>
+                    <div>
+                        <p class="font-bold text-lg">Permentan No. 1 Tahun 2024</p>
+                        <p class="text-gray-400 text-sm mt-1">Mengabaikan regulasi tata kelola dan penetapan harga dasar yang seharusnya menjadi acuan mutlak penyusunan HPS (Harga Perkiraan Sendiri).</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- TUNTUTAN AKSI (CTA) -->
+        <section class="p-8 bg-yellow-400 text-gray-900 relative">
+            <h3 class="font-heading font-black text-3xl mb-6 text-center">
+                4 TUNTUTAN SELAMATKAN UANG PETANI!
+            </h3>
+            
+            <div class="space-y-4">
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center border-l-8 border-black">
+                    <div class="text-3xl font-black text-gray-300 w-12 flex-shrink-0">01</div>
+                    <div>
+                        <h4 class="font-bold text-lg uppercase"><i class="fa-solid fa-magnifying-glass mr-2"></i>Audit Investigatif</h4>
+                        <p class="text-sm mt-1">Bupati wajib perintahkan Inspektorat periksa PPK Dinas Pertanian terkait penetapan Pagu Anggaran <strong>sebelum kontrak diteken</strong> bulan Maret 2026!</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center border-l-8 border-black">
+                    <div class="text-3xl font-black text-gray-300 w-12 flex-shrink-0">02</div>
+                    <div>
+                        <h4 class="font-bold text-lg uppercase"><i class="fa-solid fa-microscope mr-2"></i>Buka Spesifikasi Teknis</h4>
+                        <p class="text-sm mt-1">Jelaskan apakah ini pupuk super (hayati/mikroba) atau hanya pupuk organik biasa? Jika biasa, dugaan <i>mark-up</i> semakin kuat!</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center border-l-8 border-black">
+                    <div class="text-3xl font-black text-gray-300 w-12 flex-shrink-0">03</div>
+                    <div>
+                        <h4 class="font-bold text-lg uppercase"><i class="fa-solid fa-laptop-file mr-2"></i>Evaluasi E-Katalog</h4>
+                        <p class="text-sm mt-1">Jangan jadikan sistem digital *E-Purchasing* sekadar formalitas untuk melegalkan harga "titipan" yang sudah diatur!</p>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded-lg shadow-md flex items-center border-l-8 border-black">
+                    <div class="text-3xl font-black text-gray-300 w-12 flex-shrink-0">04</div>
+                    <div>
+                        <h4 class="font-bold text-lg uppercase"><i class="fa-solid fa-scissors mr-2"></i>Hentikan Pemborosan</h4>
+                        <p class="text-sm mt-1">Batalkan atau revisi anggaran paket ini! Alihkan selisih dana untuk program pemberdayaan dan kesejahteraan petani secara riil.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center bg-black text-white p-4 rounded-xl shadow-lg transform rotate-[-1deg]">
+                <p class="font-heading font-bold text-xl tracking-wide uppercase">
+                    <i class="fa-solid fa-hand-fist text-yellow-400 mr-2"></i> Mari Kawal Uang Rakyat! <i class="fa-solid fa-hand-fist text-yellow-400 ml-2"></i>
+                </p>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="bg-gray-100 p-6 text-center text-sm text-gray-500 border-t border-gray-300">
+            <p><strong>Sumber Data:</strong> Siaran Pers Gugatan Pengadaan & Rekap RUP SIRUP LKPP</p>
+            <p class="mt-1">Tasikmalaya, 08 Maret 2026</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
